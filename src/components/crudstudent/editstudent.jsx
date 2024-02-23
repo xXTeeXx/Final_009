@@ -21,7 +21,7 @@ const EditStudent = ({ student, onClose, onUpdateStudent }) => {
 
   return (
     <div className="fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50 flex items-center justify-center">
-      <div className="bg-white p-8 rounded-md">
+      <div className="bg-white p-8 rounded-md  w-4/12">
         <h2 className="text-2xl font-bold mb-4">แก้ไขข้อมูลนักเรียน</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
@@ -77,7 +77,7 @@ const EditStudent = ({ student, onClose, onUpdateStudent }) => {
               htmlFor="grade"
               className="block text-sm font-medium text-gray-700"
             >
-              ระดับชั้น:
+              เกรด:
             </label>
             <input
               type="text"
